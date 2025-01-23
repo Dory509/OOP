@@ -1,21 +1,20 @@
 {
-  "name": "oop",
-  "version": "1.0.0",
-  "description": "Nodejs app to generate a logo and save it as SVG file",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Node",
-    "js",
-    "inquirer",
-    "fs"
-  ],
-  "author": "Dory",
-  "license": "MIT",
-  "dependencies": {
-    "inquirer": "^12.3.2"
-  },
-  "type":"module"
+    "name": "list-geni",
+    "version": "1.0.0",
+    "description": "A command line list generator. Input the tasks you plan to complete today and List Geni generates a cleanly styled html document for viewing your tasks.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "babel-jest": "^29.7.0",
+        "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+        "jest": "^28.1.3"
+    }
 }

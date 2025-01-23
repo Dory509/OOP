@@ -1,6 +1,10 @@
-import fs  from 'fs';
-import {getUserInputs} from "./lib/prompts.js";
-import {Circle, Square, Triangle}from "./lib/shape.js";
+//import fs  from 'fs';
+//import {getUserInputs} from "./lib/prompts.js";
+//import {Circle, Square, Triangle}from "./lib/shape.js";
+
+const fs = require("fs")
+const {getUserInputs} = require("./lib/prompts")
+const {Circle,Square,Triangle} = require("./lib/shape")
 
 const generateSVG = async () => {
   try {
